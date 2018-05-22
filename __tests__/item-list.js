@@ -5,5 +5,5 @@ import ItemList from "../item-list";
 test('should render "no items" when passing empty list', () => {
   const container = document.createElement("div");
   ReactDOM.render(<ItemList items={[]} />, container);
-  expect(container.innerHTML).toBe("no items");
+  expect(container.textContent).toBe("no items");
 });
