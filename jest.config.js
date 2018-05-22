@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
   moduleNameMapper: {
     "\\.css": require.resolve("./src/test/style-mock")
   }
